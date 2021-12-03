@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+button {
+    border: none;
+    background: blueviolet;
+    color: white;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    border-radius: 4px;
+}
+
+.form-container {
+    padding: 1.5em;
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-container {
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+.post-card {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.post-card button {
+    background: none;
+    color: blueviolet;
+    text-decoration: underline;
+}

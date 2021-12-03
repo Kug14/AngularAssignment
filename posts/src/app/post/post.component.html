@@ -1,0 +1,7 @@
+<div class="post-container">
+    <div class="post-card" *ngFor="let post of data">
+        <h4>{{ post.title }}</h4>
+        <p>{{ post.description }}</p>
+        <button (click)="onViewMore(post)">View More</button>
+    </div>
+</div>

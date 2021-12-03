@@ -1,0 +1,8 @@
+<div class="post-container">
+    <div class="post-card">
+        <h4>{{ post.title }}</h4>
+        <p>{{ post.description }}</p>
+        <p *ngIf="post.author">Author: {{ post.author }}</p>
+        <p *ngIf="post.category">Category: {{ post.category }}</p>
+    </div>
+</div>

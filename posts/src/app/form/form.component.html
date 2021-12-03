@@ -1,0 +1,19 @@
+<div class="form-container">
+    <div class="form-input">
+        <label for="title">Post Title</label>
+        <input type="text" [(ngModel)]="title" name="title">
+    </div>
+    <div class="form-input">
+        <label for="description">Post Description</label>
+        <input type="text" [(ngModel)]="description" name="description">
+    </div>
+    <div class="form-input">
+        <label for="author">Author</label>
+        <input type="text" [(ngModel)]="author" name="author">
+    </div>
+    <div class="form-input">
+        <label for="category">Post Category</label>
+        <input type="text" [(ngModel)]="category" name="category">
+    </div>
+    <button (click)="submitForm()"> + Create New Post</button>
+</div>
